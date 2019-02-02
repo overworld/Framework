@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+    <route url="/login" module="Connexion" action="login"></route>
+    <route url="/logout" module="Connexion" action="logout"></route>
+    <route url="/admin/equipes" module="Equipes" action="index"></route>
+    <route url="/admin/equipes/ajouter" module="Equipes" action="add"></route>
+    <route url="/admin/equipes-([0-9]+)/supprimer" module="Equipes" action="delete" vars="id"></route>
+    <route url="/admin/joueurs" module="Joueurs" action="index"></route>
+    <route url="/admin/joueurs/ajouter" module="Joueurs" action="add"></route>
+
+
+</routes>
